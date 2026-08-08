@@ -1,0 +1,9 @@
+{
+  "name":"vmu-v2-5-bootstrap",
+  "private":true,
+  "scripts":{
+    "build":"node bootstrap.cjs && npm install && npm run build:app",
+    "build:app":"next build"
+  },
+  "dependencies":{}
+}
